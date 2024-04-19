@@ -47,6 +47,9 @@ const Singup = () => {
         setConfirmPassword("");
         setAvatar("https://cdn.icon-icons.com/icons2/1378/PNG/512/avatar_1093679.png");
       })
+      .then(()=>{
+        window.location.href = "/login";
+      })
       .catch((error) => {
         toast.error(error.response?.data?.message);
       });
