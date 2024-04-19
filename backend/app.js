@@ -6,7 +6,7 @@ const bodyParser = require("body-parser");
 const cors = require("cors");
 
 app.use(cors({
-  origin: ['https://eshop-tutorial-pyri.vercel.app',],
+  origin: ['https://grabit-psi.vercel.app',],
   credentials: true
 }));
 

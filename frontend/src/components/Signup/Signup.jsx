@@ -40,7 +40,7 @@ const Singup = () => {
     axios
       .post(`${server}/user/create-user`, { name, email, password, avatar })
       .then((res) => {
-        toast.success(res.data.message);
+        toast.success(res?.data?.message);
         setName("");
         setEmail("");
         setPassword("");
@@ -48,7 +48,7 @@ const Singup = () => {
         setAvatar("https://cdn.icon-icons.com/icons2/1378/PNG/512/avatar_1093679.png");
       })
       .catch((error) => {
-        toast.error(error.response.data.message);
+        toast.error(error.response?.data?.message);
       });
   };
 
