@@ -14,7 +14,7 @@ const Singup = () => {
   const [confirmPassword, setConfirmPassword] = useState("");
   const [visible, setVisible] = useState(false);
   const [avatar, setAvatar] = useState(
-    "https://cdn.icon-icons.com/icons2/1378/PNG/512/avatar_1093679.png"
+    "https://cdn-icons-png.flaticon.com/512/3541/3541871.png"
   );
 
   const handleFileInputChange = (e) => {
