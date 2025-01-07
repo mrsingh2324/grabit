@@ -13,9 +13,11 @@ const AdminHeader = () => {
          <div className="w-full h-[80px] bg-white shadow sticky top-0 left-0 z-30 flex items-center justify-between px-4">
       <div>
         <Link to="/">
-          <img
-            src="https://shopo.quomodothemes.website/assets/images/logo.svg"
+        <img
+            className="w-60 mb-5"
+            src={Logo}
             alt=""
+            style={{ filter: "brightness(0) invert(1)" }}
           />
         </Link>
       </div>
